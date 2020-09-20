@@ -15,7 +15,7 @@ import (
 func main() {
 	mux := defaultMux()
 
-	db, err := sql.Open("mysql", "reetu:Reetu8995@@(localhost:3306)/test")
+	db, err := sql.Open("mysql", "reetu:password@(localhost:3306)/test")
 
 	if err != nil {
 		panic(err.Error())
